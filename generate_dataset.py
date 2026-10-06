@@ -3,7 +3,7 @@ generate_dataset.py
 Generates a synthetic, NSL-KDD-style labeled network traffic dataset.
 
 Why synthetic: the real NSL-KDD dataset (~150k rows) has to be downloaded from
-UNB/Kaggle, which needs internet access. This script generates data with the
+UNB/Kaggle, which need internet access. This script generates data with the
 same feature schema and realistic-ish per-class distributions, so the whole
 pipeline (features -> model -> evaluation -> dashboard) runs end-to-end
 offline. Swap this for the real NSL-KDD CSV any time by keeping the same
